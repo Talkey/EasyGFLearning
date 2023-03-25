@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 using XLua;
-using UDK;
-
+//using UDK;
+using UnityEditor;
+/*
 public class XLuaManager : UnitySingleton<XLuaManager>
 {
     public const string luaScriptsFolder = "LuaScripts";
@@ -118,3 +119,5 @@ public class XLuaManager : UnitySingleton<XLuaManager>
         DisposeLuaEnv();
     }
 }
+
+*/

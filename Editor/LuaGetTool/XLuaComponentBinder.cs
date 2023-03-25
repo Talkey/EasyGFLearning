@@ -43,7 +43,7 @@ public class XLuaComponentBinder : MonoBehaviour
     public object[] AddComponent(string scriptPath)
     {
         realLuaComponents.Add(scriptPath);
-        object[] ret = XLuaManager.Instance.DoString(string.Format("return require('{0}')('{1}')", componentFactoryPath, scriptPath));
+        object[] ret = null;//XLuaManager.Instance.DoString(string.Format("return require('{0}')('{1}')", componentFactoryPath, scriptPath));
         if (ret != null && ret.Length >= 1)
         {
             LuaTable luaComponent = ret[0] as LuaTable;

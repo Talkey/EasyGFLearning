@@ -1,4 +1,8 @@
-﻿
+﻿print("hello")
+
+local value=CS.UnityEngine.Vector3
+
+print(value.one)
 
 -- function Awake()
 
